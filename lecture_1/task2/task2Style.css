@@ -1,0 +1,32 @@
+body{
+    color: indianred;
+}
+
+.marketList{
+    background-color: cadetblue;
+    
+}
+
+.item1{
+    color: black;
+}
+
+.item2{
+    color: aquamarine;
+}
+
+.item3{
+    color: chartreuse;
+}
+
+.item4{
+    color: rgb(20, 87, 220);
+}
+
+.item5{
+    color: darkgreen;
+}
+
+.item6{
+    color: deepskyblue;
+}

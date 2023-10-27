@@ -1,0 +1,42 @@
+/* a) Set a background color for the entire menu  */
+#main-menu {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+/* b) Styling for  the text color of the navigation items */
+#main-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* c) Hover effect when users hover over the navigation items (class selector) */
+#main-menu a:hover {
+    color: #a5bd45;
+}
+
+/* d) Adjust the spacing, padding, and margin as needed to make the menu visually appealing ) */
+#main-menu li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+/* e) Add styles to an element that comes immediately after another element (combination selector) */
+#main-menu li + li {
+    border-top: 1px solid #c83232;
+    padding-top: 30px;
+}
+
+/* f) Style elements that are descendants of another element (descendant selector - e.g.: style links within the menu items) */
+#main-menu li a {
+    margin: 0;
+    padding: 0;
+}
+
+/* g) Style elements that are direct children of another element (child selector - e.g.: style only the top-level menu items, not nested sub-menus) */
+#main-menu > li > a {
+    font-weight: bold;
+    font-size: 18px;
+}

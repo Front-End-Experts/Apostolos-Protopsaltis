@@ -1,0 +1,19 @@
+
+/* General styling */
+body{
+    background-color: lightcyan;
+}
+/* styling for the left video */
+#leftVideo{
+    display: flex;
+    justify-content: flex-start;
+}
+/* styling for the right  video */
+#rightVideo{
+    display: flex;
+    justify-content: flex-end;
+}
+/* styling for the description boxes */
+.descriptionBox{
+    margin-left: 20px;
+}

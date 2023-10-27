@@ -1,0 +1,21 @@
+body{
+    background-color: burlywood;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#image1{
+    border-radius: 25px;
+    width: 800px;
+    height: 500px;
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+}
