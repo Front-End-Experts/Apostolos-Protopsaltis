@@ -1,0 +1,36 @@
+/* Style for the navigation menu */
+#main-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+/* Style for each menu item */
+#main-menu li {
+    margin: 10px;
+    
+}
+
+/* Style for links inside menu items */
+#main-menu li a {
+    text-decoration: none;
+    color: #333;
+    
+}
+
+/* Hover effect: Scale and change color on hover */
+#main-menu li:hover {
+    transform: scale(1.2); /* Scale up the menu item */
+    
+}
+
+#main-menu li a:hover{
+    color: rgb(229, 30, 30); /* Change text color on hover */
+    transition: color 0.3s; /* Apply color transition effect on hover */
+
+}
+
+/* Restore default styles when the link is clicked (active state) */
+#main-menu li a:active {
+    color: #28c787;
+}

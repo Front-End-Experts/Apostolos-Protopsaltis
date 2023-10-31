@@ -1,0 +1,36 @@
+/* Custom CSS for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Custom CSS for the featured menu section */
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Custom CSS for the contact information section */
+.row {
+    margin-bottom: 20px;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    /* Example responsive styling for smaller screens */
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .row {
+        margin-bottom: 10px;
+    }
+}
